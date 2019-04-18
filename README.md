@@ -1,2 +1,2 @@
-"# 3pic_rgb" 
-"# 3pic_rgb" 
+This script takes 3 photos and decomposes them to their red, green and blue values. Then rejoin them with all 6 different combinations (as different colors: rgb, gbr, grb, rbg, brg, bgr. Also it will create files with the negatives of the images (This will create a total of 48 images from 3 images). Currently it spits all the photos in "output" directory in an organized way but this is just for test, it can be optimized for different situations. 
+Usage: prepare 3 photos named: r, g and b in the same directory with python file. supported xtentions: .png, .jpg and .jpeg. Then run the code.
